@@ -55,5 +55,9 @@ body, html {
 
       scale: .5;
     }
+    .navbar a {
+
+      scale: .5;
+    }
   }
 
