@@ -51,7 +51,7 @@ body, html {
   }
 
   @media screen and (orientation: portrait) {
-    .navbar a {
+    .navbar nav {
 
       scale: .5;
     }
