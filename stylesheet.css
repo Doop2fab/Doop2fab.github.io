@@ -52,9 +52,8 @@ body, html {
 
   @media screen and (orientation: portrait) {
     .navbar a {
-      float: none;
-      width: 50%;
-      background-color: aqua;
+
+      scale: .5;
     }
   }
 
