@@ -17,7 +17,6 @@ body, html {
    
   background-color: #8e0000; 
   color: #ffffffb7;
-  outline: none;
   border-style: none;
 
 }
@@ -25,16 +24,7 @@ body, html {
    
   background-color: #8e0000c4; 
   color: #ffffff94;
-  outline: none;
   border-style: none;
-
-}
-.btn-primary:focus{
-   
-  background-color: #db0000c4!important; 
-  color: #ffffffcc !important;
-  border-style: none !important;
-  box-shadow: none!important;
 
 }
 
