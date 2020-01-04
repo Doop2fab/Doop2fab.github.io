@@ -50,3 +50,10 @@ body, html {
     }
   }
 
+  @media screen and (orientation: portrait) {
+    .navbar a {
+      float: none;
+      width: 50%;
+    }
+  }
+
