@@ -1,20 +1,4 @@
-body{
-  background-color: #121212; 
-  color: #ffffff; 
-  font-family: 'Josefin Sans', sans-serif;
 
-}
-.bg {
-  /* The image used */
-  background-image: url("pictures/me_background.JPG");
-
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .navbar{
   background-color: #7f0000;
@@ -34,21 +18,11 @@ body{
   
 }
 
-.dropdown-item{
-  color: #ffffff;
-
+.dropdown-item:hover{
+  color: #2e2e2e;
 }
-
 
 .btn-primary:hover{
-   
-  background-color: #8e0000c4; 
-  color: #ffffff94;
-  outline: none;
-  border-style: none;
-
-}
-.btn-primary{
    
   background-color: #8e0000c4; 
   color: #ffffff94;

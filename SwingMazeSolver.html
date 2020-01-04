@@ -7,32 +7,41 @@
 <link rel="stylesheet" type="text/css" href="./SwingMazeSolver_files/stylesheet.css" title="Style">
 <script type="text/javascript" src="./SwingMazeSolver_files/script.js.download"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheet_javadoc.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar fixed-bottom navbar navbar-dark" style="background-color: #8e0000;">
-        <!---574b90, 9e579d, fc85ae-->
-        <a class="navbar-brand" href="#">Andrew Spores</a>
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="#">Contact</a>
-          <li class="nav-item dropup">
-            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Portfolio
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="programming.html">Programming Projects</a>
-              <a class="dropdown-item" href="#">Photography</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">View All</a>
-            </div>
-          </li>
+<body style="font-family: 'Josefin Sans', sans-serif;">
+  <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark "> <!---574b90, 9e579d, fc85ae-->
+    <a class="navbar-brand" href="index.html">Andrew Spores</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li>
+        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li>
+      <a class="nav-item nav-link" href="about.html">About</a>
+      </li>
+      <li>
+      <a class="nav-item nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item dropup">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" style="color: #ffffff;" href="programming.html">Programming Projects</a>
+          <a class="dropdown-item" style="color: #ffffff;" hover href="photography.html">Photography</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" style="color: #ffffff;" href="portfolio-all.html">View All</a>
         </div>
-      </nav>
-<script type="text/javascript"><!--
+      </li><!--end of dropdown for portfolio-->
+    </ul>
+    </div>
+  </nav>
+<script type="text/javascript">
     try {
         if (location.href.indexOf('is-external=true') == -1) {
             parent.document.title="SwingMazeSolver";
@@ -40,7 +49,7 @@
     }
     catch(err) {
     }
-//-->
+
 var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":9,"i10":9,"i11":10,"i12":10,"i13":10,"i14":10};
 var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
