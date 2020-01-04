@@ -18,30 +18,39 @@
 </head>
 <!-- Page Content -->
 
-<body style="background-color: #121212; color: #ffffff; font-family: 'Josefin Sans', sans-serif;">
+<body >
   <!-- Page Content -->
   
   <div class="container">
     <!---Navigation-->
-    <nav class="navbar navbar-expand-lg navbar fixed-bottom navbar navbar-dark" style="background-color: #8e0000;">
-      <!---574b90, 9e579d, fc85ae-->
-      <a class="navbar-brand" href="#">Andrew Spores</a>
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">About</a>
-        <a class="nav-item nav-link" href="#">Contact</a>
+    <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark"> <!---574b90, 9e579d, fc85ae-->
+      <a class="navbar-brand" href="index.html">Andrew Spores</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li>
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+        <a class="nav-item nav-link" href="about.html">About</a>
+        </li>
+        <li>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+        </li>
         <li class="nav-item dropup">
-          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Portfolio
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="programming.html">Programming Projects</a>
-            <a class="dropdown-item" href="#">Photography</a>
+            <a class="dropdown-item" href="photography.html">Photography</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">View All</a>
+            <a class="dropdown-item" href="portfolio-all.html">View All</a>
           </div>
-        </li>
+        </li><!--end of dropdown for portfolio-->
+      </ul>
       </div>
     </nav>
     <!-- Page Heading -->
@@ -53,7 +62,7 @@
    
       <div class="row">
         <div class="col-md-7">
-          <a href="#">
+          <a href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze">
             <img class="img-fluid rounded view mb-3 mb-md-0" src="pictures/backtracking_maze_solver.JPG" alt="">
           </a>
         </div>
@@ -63,8 +72,22 @@
             problems. It implements simple Backtracking by recursively determining if a space is safe to move to or not
             and, if the space in question is "un-safe", the rat backtracks. I have included 3 preset mazes, along with the
             ability to draw your own mazes.</p>
-          <a class="btn btn-primary" href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze">View Project on GitHub</a>
-          <a class="btn btn-primary" href="SwingMazeSolver.html">View Project Javadoc</a>
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-primary">View on GitHub</button>
+              <button type="button" class="btn btn-primary">View Javadoc</button>
+            
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item" href="#">Download .exe</a>
+                  <a class="dropdown-item" href="#">Download .jar</a>
+                  <a class="dropdown-item" href="#">Download source code</a>
+                </div>
+              </div>
+            </div>
+          
         </div>
       </div>
     

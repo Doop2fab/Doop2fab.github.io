@@ -1,5 +1,8 @@
-body, html {
-  height: 100%;
+body{
+  background-color: #121212; 
+  color: #ffffff; 
+  font-family: 'Josefin Sans', sans-serif;
+
 }
 .bg {
   /* The image used */
@@ -13,14 +16,28 @@ body, html {
   background-size: cover;
 }
 
+.navbar{
+  background-color: #7f0000;
+}
+
 .btn-primary{
    
-  background-color: #8e0000; 
+  background-color: #b71c1c; 
   color: #ffffffb7;
   outline: none;
   border-style: none;
 
 }
+
+.dropdown-menu{
+  background-color: #f05545;
+  
+}
+
+.dropdown-item{
+  color: #ffffff;
+}
+
 .btn-primary:hover{
    
   background-color: #8e0000c4; 
@@ -43,4 +60,20 @@ body, html {
   opacity: 0.8;
   }
 
+  @media (max-width: 800px) {
+    h1, h2, h4{
+      font-size: large;
+    }
+    .bg
+    {
+      background-position: -100px;
+      background-attachment: fixed;
+      width: 100%; 
+    }
+  }
+  @media (min-width: 801px) {
+    body, html {
+      height: 100%;
+    }
+  }
 
