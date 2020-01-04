@@ -43,23 +43,23 @@ body{
 .btn-primary:hover{
    
   background-color: #8e0000c4; 
-  color: #ffffff94;
+  color: #dfdfdf;
   outline: none;
   border-style: none;
 
 }
 .btn-primary{
    
-  background-color: #8e0000c4; 
-  color: #ffffff94;
+  background-color: #db0000c4; 
+  color: #ffffff;
   outline: none;
   border-style: none;
 
 }
 .btn-primary:focus{
    
-  background-color: #db0000c4!important; 
-  color: #ffffffcc !important;
+  background-color: red!important; 
+  color: #ffffff !important;
   border-style: none !important;
   box-shadow: none!important;
 
