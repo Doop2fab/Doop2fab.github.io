@@ -15,6 +15,13 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.about_bg{
+  height: 33%;
+  background-image: url("pictures/photography_sample_1.JPG");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 
 .navbar{
   background-color: #7f0000;
@@ -76,6 +83,7 @@ body{
   border: 0;
   
 }
+
 .jumbotron{
   background-color: #202020;
 }
@@ -93,6 +101,18 @@ body{
   background-color: #272727;
   padding: 10px;
   border-radius: 10px;
+}
+.extra_button_fill{
+  background-color: #8e0000c4;
+  padding: 2px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 0%;
+}
+.extra_button_fill:hover{
+   
+  background-color: #db0000c4; 
+  color: #dfdfdf;
 }
 .text_fill{
   background-color: #272727;
@@ -116,7 +136,16 @@ body{
   background-color: red;
   opacity: 0.8;
   }
-
+  @media (max-width: 1200px){
+    .text-email{
+      font-size: x-small;
+    }
+  }
+  @media (max-width: 767px){
+    .text-email{
+      font-size: medium;
+    }
+  }
   @media (max-width: 800px) {
     h1, h2, h4{
       font-size: large;
@@ -127,6 +156,7 @@ body{
       background-attachment: fixed;
       width: 100%; 
     }
+    
   }
   @media (min-width: 801px) {
     body, html {
