@@ -25,6 +25,17 @@ body{
 
 .navbar{
   background-color: #7f0000;
+  padding: 5px;
+  padding-left: 10px;
+}
+.navbar-brand{
+  font-size: 30px;
+  padding: 0%;
+  
+}
+.nav-link{
+  font-size: 20px; 
+  padding: 0%;
 }
 
 .btn-primary{
@@ -61,6 +72,7 @@ body{
   color: #ffffff;
   outline: none;
   border-style: none;
+  border-radius: 10px;
 
 }
 .btn-primary:focus{
@@ -155,6 +167,18 @@ body{
       background-position: -100px;
       background-attachment: fixed;
       width: 100%; 
+    }
+    .nav-link{
+      font-size:25px; 
+      padding: 0%;
+    }
+    .about_bg{
+      height: 33%;
+      background-image: url("pictures/photography_sample_1.JPG");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding-top: 2%;
     }
     
   }
