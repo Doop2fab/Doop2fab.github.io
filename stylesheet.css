@@ -6,10 +6,10 @@ body{
 }
 .bg {
   /* The image used */
-  background-image: url("pictures/me_background.JPG");
+  background-image: url("pictures/background_index.JPG");
 
   /* Full height */
-  height: 92%;
+  height: 75%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@ body{
 .extra_button_fill:hover{
    
   background-color: #db0000c4; 
-  color: #dfdfdf;
+  color: #c7c7c7;
 }
 .text_fill{
   background-color: #272727;
@@ -163,12 +163,7 @@ body{
     h1, h2, h4{
       font-size: large;
     }
-    .bg
-    {
-      background-position: -100px;
-      background-attachment: fixed;
-      width: 100%; 
-    }
+   
     .nav-link{
       font-size:25px; 
       padding: 0%;

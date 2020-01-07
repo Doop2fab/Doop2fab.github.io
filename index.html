@@ -20,57 +20,95 @@
 
   <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark"> <!---574b90, 9e579d, fc85ae-->
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+      <!---574b90, 9e579d, fc85ae-->
       <a class="navbar-brand" href="index.html">Andrew Spores</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li>
-          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li>
-        <a class="nav-item nav-link" href="about.html">About</a>
-        </li>
-        <li>
-        <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Portfolio
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="programming.html">Java Projects</a>
-            <a class="dropdown-item" href="programming.html">Unity Projects</a>
-            <a class="dropdown-item" href="Cubegame/index.html">Cube Game</a>
-            <a class="dropdown-item" href="DND Media/index.html">DND Media</a>
-            <a class="dropdown-item" href="photography.html">Photography</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="portfolio-all.html">View All</a>
-          </div>
-        </li><!--end of dropdown for portfolio-->
-      </ul>
+          <li>
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="programming.html">Programming Projects</a>
+              <a class="dropdown-item" href="photography.html">Photography</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="portfolio-all.html">View All</a>
+            </div>
+          </li>
+          <!--end of dropdown for portfolio-->
+        </ul>
       </div>
     </nav>
-</body>
-  <!-- Page Content -->
-  <div class="bg">
-  <section>
-    <div class="container">
-      <div class="row justify-content-between no-gutters">
-        <div class="col-lg-5">
-          <h1 class="mt-3 display-1 ">Let's do great things. <i>Together.</i></h1>
+    <header class="bg py-8 mb-5">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-6">
+            <h1 class="display-2 text-white mt-8">Let's do great things.</h1> 
+            <h1 class="display-3 mt-3 mb-3" style="color: #ffc4c4;"><i>Together.</i></h1>
+            
+            <blockquote class="blockquote text-left">
+              <Scroll class="mb-8" style="color: #ffffff; margin-left: 2%;">Scroll down for more information &#8628</p>
+            </blockquote>
+          </div>
         </div>
-        <div class="col-lg-4">
-          <h4 class="mt-4 display-4 text-right ">Student, Photographer, Programmer.</h4>
-          <h2 class="mt-5 text-right">Check out the buttons below to get started with my interactive resume.</h2>
+      </div>
+    </header>
+    <div class="container secondary_background">
+        <div class="row ">
+          <div class="col-md-4 mb-5">
+            <div class="card h-100 ">
+              <img class="card-img-top" src="pictures/cropped_butler.png" alt="">
+              <div class="card-body ">
+                <h4 class="card-title">Portfolio</h4>
+                <p class="card-text">View all programming projects I've completed, including project difficulties, solutions, and notable features. </p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">All Projects &raquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <img class="card-img-top" src="pictures/experience_1.png" alt="">
+              <div class="card-body">
+                <h4 class="card-title">About Me</h4>
+                <p class="card-text">View details about who I am and what I can do for you.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">More Info &raquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <img class="card-img-top" src="pictures/java_snippet_2.png" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Experience</h4>
+                <p class="card-text">View information related to prior coursework and employment in one convienient spot.</p>
+              </div>
+              <div class="card-footer">
+                <a href="#" class="btn btn-primary">Course and Employment History &raquo;</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-</div>
-
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
