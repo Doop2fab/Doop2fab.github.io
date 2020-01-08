@@ -20,7 +20,7 @@ html{
   background-attachment: fixed;
 }
 .about_bg{
-  height: 33%;
+  height: 55%;
   background-image: url("pictures/photography_sample_1.JPG");
   background-size: cover;
   background-position: center;
@@ -243,7 +243,7 @@ a:active {
       margin-bottom: 3px;
     }
     .display-2, .display-3{
-      font-size: 40px;
+      font-size: 50px;
       text-align: center;
     }
     .display-3{
