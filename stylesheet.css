@@ -198,7 +198,9 @@ a:active {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
-
+.under-800{
+  font-size: 145px;
+}
 .view:hover {
   background-color: red;
   opacity: 0.8;
@@ -222,7 +224,9 @@ a:active {
     h1, h2, h4{
       font-size: large;
     }
-   
+    .bg{
+      height:100%;
+    }
     .nav-link{
       font-size:25px; 
       padding: 0%;
@@ -238,14 +242,21 @@ a:active {
     .extra_button_fill{
       margin-bottom: 3px;
     }
-    
-    
-  }
-  @media (min-width: 801px) {
-    body, html {
-      height: 100%;
+    .display-2, .display-3{
+      font-size: 40px;
+      text-align: center;
     }
+    .display-3{
+      margin-top: 5%;
+    }
+    .under-800{
+    
+      font-size: 80px;
+     
+    }
+    
   }
+
 
   
 
