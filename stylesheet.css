@@ -4,16 +4,20 @@ body{
   font-family: 'Josefin Sans', sans-serif;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 .bg {
   /* The image used */
-  background-image: url("pictures/background_index.JPG");
+  background-image: url("pictures/background_index.jpeg");
 
   /* Full height */
-  height: 75%;
+  height: 60%;
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 .about_bg{
   height: 33%;
@@ -22,7 +26,13 @@ body{
   background-position: center;
   background-attachment: fixed;
 }
-
+.email-link:link{
+  color: red;
+}
+.email-link:hover{
+  color: #7f0000;
+  text-decoration: none;
+}
 .navbar{
   background-color: #7f0000;
   padding: 5px;
@@ -56,25 +66,67 @@ body{
   color: #ffffff;
 
 }
-
-
-.btn-primary:hover{
-   
-  background-color: #8e0000c4; 
-  color: #dfdfdf;
-  outline: none;
-  border-style: none;
-
+#shadow{
+  text-shadow: 2px 2px 2px #000000;
 }
-.btn-primary{
-   
+#shadow-box{
+  box-shadow: 2px 2px 4px #000000;
+}
+/* unvisited link */
+a:link {
+  color: #ffc4c4;
+}
+
+/* visited link */
+a:visited {
+  color: #ffc4c4;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffb0b0;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #ffb0b0;
+}
+
+.btn-programming{
+  box-shadow: 2px 2px 4px #000000;
   background-color: #db0000c4; 
   color: #ffffff;
   outline: none;
   border-style: none;
   border-radius: 10px;
+}
+.btn-programming:hover{
+   
+  background-color: #8e0000c4; 
+  color: #ffffff;
+  outline: none;
+  border-style: none;
 
 }
+
+.btn-primary:hover{
+   
+  background-color: #8e0000c4; 
+  color: #ffffff;
+  outline: none;
+  border-style: none;
+
+}
+.btn-primary{
+  box-shadow: 2px 2px 1px #000000;
+  background-color: #db0000c4; 
+  color: #ffffff;
+  outline: none;
+  border-style: none;
+  border-radius: 10px;
+}
+
 .btn-primary:focus{
    
   background-color: red!important; 
@@ -159,6 +211,11 @@ body{
       font-size: medium;
     }
   }
+  @media (max-width: 600px){
+    .btn-top{
+      margin-bottom: 3px;
+    }
+  }
   @media (max-width: 800px) {
     h1, h2, h4{
       font-size: large;
@@ -179,6 +236,7 @@ body{
     .extra_button_fill{
       margin-bottom: 3px;
     }
+    
     
   }
   @media (min-width: 801px) {

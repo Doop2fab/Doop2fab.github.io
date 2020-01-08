@@ -20,8 +20,8 @@
 
 <body >
   <!-- Page Content -->
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark"> <!---574b90, 9e579d, fc85ae-->
-    <a class="navbar-brand" href="index.html">Andrew Spores</a>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="shadow-box"> <!---574b90, 9e579d, fc85ae-->
+    <a class="navbar-brand" href="index.html" id="shadow">Andrew Spores</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -63,7 +63,7 @@
       <div class="row">
         <div class="col-md-7">
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel"  >
-            <div class="carousel-inner">
+            <div class="carousel-inner" id="shadow-box">
               <div class="carousel-item active" data-interval="10000">
                 <img src="pictures/backtracking_maze_solver.JPG" class="d-block w-100 rounded" alt="...">
               </div>
@@ -74,17 +74,17 @@
           </div>
         </div>
         <div class="col-md-5">
-          <h3 class="title_fill text-center" style="color: #ffffff">Backtracking Rat-in-a-Maze Solver</h3>
-          <p class="text_fill" style="color: #ffffffb7">This is a program which extends the Swing framework that solves Rat-in-a-Maze
+          <h3 class="title_fill text-center" style="color: #ffffff"  id="shadow-box">Backtracking Rat-in-a-Maze Solver</h3>
+          <p class="text_fill" style="color: #ffffffb7"  id="shadow-box">This is a program which extends the Swing framework that solves Rat-in-a-Maze
             problems. It implements simple Backtracking by recursively determining if a space is safe to move to or not
             and, if the space in question is "un-safe", the rat backtracks. I have included 3 preset mazes, along with the
             ability to draw your own mazes.</p>
-            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-              <a type="button" class="btn btn-primary btn-lg program_button" href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze">View on GitHub</a>
-              <a type="button " class="btn btn-primary btn-lg" href="SwingMazeSolver.html">View Javadoc</a>
+            <div class="btn-group container-fluid" style="margin: 0%; padding: 0%;" role="group" aria-label="Button group with nested dropdown">
+              <a type="button" class="btn btn-programming btn-lg program_button" href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze">View on GitHub</a>
+              <a type="button " class="btn btn-programming btn-lg" href="SwingMazeSolver.html">View Javadoc</a>
             
               <div class="btn-group" role="group">
-                <button id="btnGroupDrop1" type="button" class="program_button btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button id="btnGroupDrop1" type="button" class="program_button btn btn-programming dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Downloads
                 </button>
                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
