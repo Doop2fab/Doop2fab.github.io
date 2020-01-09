@@ -198,6 +198,12 @@ a:active {
   background-color: red;
   
   }
+  .modal-content{
+    background-color: #313131;
+  }
+  .modal-body input{
+    color: #000000;
+  }
   @media (max-width: 1200px){
     .text-email{
       font-size: x-small;
@@ -249,7 +255,7 @@ a:active {
     }
     
   }
-  
+
 
 
 

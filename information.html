@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Andrew Spores">
-    <meta name="theme-color" content="#7f0000">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Andrew Spores" />
+    <meta name="theme-color" content="#7f0000" />
 
     <title>Information</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" />
 </head>
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="shadow-box">
     <!---574b90, 9e579d, fc85ae-->
@@ -52,29 +52,278 @@
 </nav>
 
 <body>
+    <div class="row justify-content-between" style="margin: 1%;">
+        <div class="col-md-12 terciary_background" style="font-size: 20px;" id="shadow-box">
+            <h2 class="primary_background" id="shadow">Relevant Coursework</h2>
+            <hr />
+            <div class="row ml-1">
+                <div class="col" style="font-size: 20px;">
+                    <h3 class="primary_background" id="shadow">Programming Courses</h3>
+                    <!--Start of class-->
+                    <p>
+                        <a style="color:red">&bull;</a>CS 142 - Introduction to Computer
+                        Science and Programming
+                    </p>
 
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
+                        data-target="#cs142ModalCenter">
+                        <!--Make sure to edit the data target-->
+                        About CS 142
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="cs142ModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <!--Make sure to edit the ID to correspond with the data target-->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p class="ml-3 mt-3">
+                                        Introduction to programming in a high-level language
+                                        (assignment, data types, expressions, selection, loops,
+                                        functions, arrays) including parallel programming for
+                                        supercomputers. Topics such as AI, software engineering,
+                                        and databases are also discussed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Class-->
+
+                    <p>
+                        <a style="color:red">&bull;</a>CS 248 - Object-Oriented
+                        Programming and Data Structures
+                    </p>
+
+                    <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
+                        data-target="#cs248ModalCenter">
+                        About CS 248
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="cs248ModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p class="ml-3 mt-3">
+                                        Introduction to object-oriented programming using Java,
+                                        including algorithm analysis, recursion, the stack, queue,
+                                        tree, and heap data structures, sorting algorithms, and
+                                        GUI programming. A brief survey of computer science is
+                                        also included: history, software engineering, computer
+                                        organization, operating systems, networks, programming
+                                        languages, databases, artificial intelligence, and theory.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a style="color:red">&bull;</a>CS 333 - Database Systems</p>
+
+                    <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
+                        data-target="#cs333ModalCenter">
+                        About CS 333
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="cs333ModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p class="ml-3 mt-3">
+                                        Introduction to the theory, design, and use of modern
+                                        database management systems. Topics include the
+                                        relational, entity-relationship, and object-oriented data
+                                        models, query languages such as SQL, file systems,
+                                        concurrency and deadlock, reliability, security, and query
+                                        optimization.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a style="color:red">&bull;</a>CS 351 - Algorithms</p>
+
+                    <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
+                        data-target="#cs351ModalCenter">
+                        About CS 351
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="cs351ModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p class="ml-3 mt-3">
+                                        A systematic study of data structures and algorithms with
+                                        an introduction to theoretical computer science. Topics
+                                        include lists, stacks, queues, trees, and graph structure,
+                                        searching and sorting algorithms, mathematical algorithms,
+                                        time and space complexity, an introduction to the theory
+                                        of NP-completeness, and an introduction to computability
+                                        theory.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="font-size: 20px;">
+                    <h3 class="primary_background" id="shadow">Mathematics Courses</h3>
+                    <p>
+                        <a style="color:red">&bull;</a>MA 106 & 107 - Calculus and
+                        Analytic Geometry
+                    </p>
+
+                    <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
+                        data-target="#ma106ModalCenter">
+                        About MA 106 & 107
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="ma106ModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p class="ml-3 mt-3">
+                                        MA 106 topics include differentiation, integration, and
+                                        exponential, logarithmic, and trigonometric functions. MA
+                                        107 topics include methods of integration, improper
+                                        integrals, infinite series, conic sections, and polar
+                                        coordinates. Applications are emphasized.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        <a style="color:red">&bull;</a>CS 151 & 152 - Foundations of
+                        Computing
+                    </p>
+                    <h6 class="card-subtitle text-muted mb-3 ml-2"></h6>
+
+                    <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
+                        data-target="#cs151ModalCenter">
+                        About CS 151 & 152
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="cs151ModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p class="ml-3 mt-3">
+                                        Introduction to mathematical problem solving, with
+                                        emphasis on techniques for designing computer-based
+                                        solutions. Concepts include problem-solving principles,
+                                        logic, proof techniques, sets, sequences, functions,
+                                        relations, and inductive and recursive thinking.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a style="color:red">&bull;</a>MA 215 - Linear Algebra</p>
+
+                    <button type="button" class="btn btn-primary mb-3" data-toggle="modal"
+                        data-target="#ma215ModalCenter">
+                        About MA 215
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="ma215ModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p class="ml-3 mt-3">
+                                        The course studies linear maps between vector spaces.
+                                        These simplest of transformations are quite sophisticated
+                                        and useful when the dimensions are higher than one. Topics
+                                        include the structure of vector spaces, matrices,
+                                        determinants, orthogonal bases, applications such as
+                                        solving systems of linear equations, and eigenvalues and
+                                        eigenvectors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="experience"></div>
+        </div>
+    </div>
 
     <div class="row justify-content-between" style="margin: 1%; margin-top: 3%;">
         <div class="col-md-12 terciary_background" style="font-size: 20px;" id="shadow-box">
+            <h2 class="primary_background" id="shadow">
+                Work and Leadership Experience
+            </h2>
+            <hr />
+            <p>
+                What makes the <i>ideal</i> candidate for your position? Copious
+                <b>ambition</b>? Exceptional <b>skill</b>? Bottomless <b>energy</b>?
+            </p>
+            <p>
+                Well, look no further - I am confidently armed with a
+                <b>drive</b> seldomly matched and an unsatiable craving for
+                <b>knowledge</b> backed by an endless supply of <b>exhuberance</b>; my
+                programming portfolio speaks for itself.
+            </p>
+            <p>
+                Your perfect fit is just <i>one</i> e-mail away - interested in what I
+                can do for you? Contact me at
+                <a class="email-link" href="mailto:aspores@outlook.com?Subject=Let's%20Talk"
+                    target="_top">aspores@outlook.com</a>.
+            </p>
 
-            <h2 class="primary_background" id="shadow">Relevant Coursework</h2>
-            <hr>
+            <a class="btn btn-primary btn-lg btn-top" href="mailto:aspores@outlook.com?Subject=Let's%20Talk">
+                &#9993; Let's Talk &raquo;
+                <div id="skills"></div></a>
+            <a class="btn btn-primary btn-lg" href="experience.html">My Achievements &raquo;</a>
+        </div>
+    </div>
 
+    <div class="row " style="margin: 1%; margin-top: 3%;">
+        <div class="col-md-12 terciary_background" style="font-size: 20px;" id="shadow-box">
+            <h2 class="primary_background" id="shadow">Skills</h2>
+            <hr />
+            <p class="text-center" style="font-size: 40px;">
+                <a style="color:red">&bull;</a> Customer Service
+                <a style="color:red">&bull;</a>Java
+                <a style="color:red">&bull;</a>HTML5
+                <a style="color:red">&bull;</a>CSS
+                <a style="color:red">&bull;</a>JavaScript
+                <a style="color:red">&bull;</a>C++
+                <a style="color:red">&bull;</a>Autodesk Revit
+                <a style="color:red">&bull;</a>Android Studio
+                <a style="color:red">&bull;</a>Bootstrap 4
+            </p>
         </div>
     </div>
     <div class="row" style="margin: 1%; margin-top: 3%;">
         <div class="col-md-12 terciary_background" style="font-size: 20px;" id="shadow-box">
             <h2 class="primary_background" id="shadow">My Achievements</h2>
-            <hr>
+            <hr />
             <div class="row">
                 <div class="col-md-3 mt-3">
                     <div id="aia-carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner" id="shadow-box">
                             <div class="carousel-item active" data-interval="10000">
-                                <img src="pictures/aia_certificate.jpg" class="d-block w-100 mx-auto rounded" alt="...">
+                                <img src="pictures/aia_certificate.jpg" class="d-block w-100 mx-auto rounded"
+                                    alt="..." />
                             </div>
                             <div class="carousel-item" data-interval="10000">
-                                <img src="pictures/aia_submission.jpg" class="d-block w-100 mx-auto rounded" alt="...">
+                                <img src="pictures/aia_submission.jpg" class="d-block w-100 mx-auto rounded"
+                                    alt="..." />
                             </div>
                         </div>
                     </div>
@@ -88,71 +337,66 @@
                     </a>
                 </div>
                 <div class="col-md-8 mt-3 mb-3 ml-1">
-                    <h2 class="primary_background mb-4" id="shadow">AIA Design Competition: 1st Place</h2>
-                    <p>On <b>May 4th, 2018</b>, I was presented an <b>Award of Excellence</b> by the <b>American
-                            Institute of Architects</b> for earning <b>1st place</b> in the <b><a
-                                href="https://ihsadc.com/pastprojects/" target="_blank">Indiana High School
-                                Architectural Design Competition</a></b>.</p>
-                    <p>This competition asked participants to design a museum that showcased 4 different human
-                        emotions within its exhibits while considering building structure and appearance.</p>
-                    <p>I chose <b>irritation, uneasiness, surprise, and happiness</b> as the emotions to be featured
-                        in my museum respectively. One of the stand-out elements in my design was the building's
-                        handicap accessability, as it utilized elevators instead of stairways to get to the
-                        different exhibits.</p>
-                    <p>The exhibits were designed with the participation of the visitors in mind so as to elicit the
-                        featured emotion, as I believed it would improve the guests' experiences tremendously. Also,
-                        it allowed me to more finely tune and control each guest's individual experience.</p>
-                    <p>This competition taught me <b>time and project management along with architectural design
-                            skills</b>, as it was necessary to complete the project before its deadline whilst
-                        designing a building with function and form.</p>
-
+                    <h2 class="primary_background mb-4" id="shadow">
+                        AIA Design Competition: 1st Place
+                    </h2>
+                    <p>
+                        On <b>May 4th, 2018</b>, I was presented an
+                        <b>Award of Excellence</b> by the
+                        <b>American Institute of Architects</b> for earning
+                        <b>1st place</b> in the
+                        <b><a href="https://ihsadc.com/pastprojects/" target="_blank">Indiana High School Architectural
+                                Design Competition</a></b>.
+                    </p>
+                    <p>
+                        This competition asked participants to design a museum that
+                        showcased 4 different human emotions within its exhibits while
+                        considering building structure and appearance.
+                    </p>
+                    <p>
+                        I chose <b>irritation, uneasiness, surprise, and happiness</b> as
+                        the emotions to be featured in my museum respectively. One of the
+                        stand-out elements in my design was the building's handicap
+                        accessability, as it utilized elevators instead of stairways to
+                        get to the different exhibits.
+                    </p>
+                    <p>
+                        The exhibits were designed with the participation of the visitors
+                        in mind so as to elicit the featured emotion, as I believed it
+                        would improve the guests' experiences tremendously. Also, it
+                        allowed me to more finely tune and control each guest's individual
+                        experience.
+                    </p>
+                    <p>
+                        This competition taught me
+                        <b>time and project management along with architectural design
+                            skills</b>, as it was necessary to complete the project before its deadline
+                        whilst designing a building with function and form.
+                    </p>
                 </div>
             </div>
-            <hr>
+            <hr />
             <div class="row">
                 <div class="col-md-3 mt-3">
-                    <img src="pictures/vhs_diploma.jpg" class="d-block w-100 mx-auto rounded" alt="...">
+                    <img src="pictures/vhs_diploma.jpg" class="d-block w-100 mx-auto rounded" alt="..." />
                 </div>
                 <div class="col-md-8 ml-4 mt-3">
-                    <h2 class="primary_background mb-4" id="shadow">Academic and Technical Honors</h2>
-                    <p>On <b>June 3rd, 2018</b>, I earned my High-School diploma and graduated with both <b>Acadmic and
-                            Technical Honors</b> from Valparaiso High School.</p>
-                    <p>Indiana Core 40 Academic and Technical Honors criteria can be found <b><a
-                            href="https://www.doe.in.gov/sites/default/files/student-assistance/core-40-and-honors-diploma-summary-class-2016-updated-june-2018.pdf"
-                            target="_blank">here</a></b>.</p>
+                    <h2 class="primary_background mb-4" id="shadow">
+                        Academic and Technical Honors
+                    </h2>
+                    <p>
+                        On <b>June 3rd, 2018</b>, I earned my High-School diploma and
+                        graduated with both <b>Acadmic and Technical Honors</b> from
+                        Valparaiso High School.
+                    </p>
+                    <p>
+                        Indiana Core 40 Academic and Technical Honors criteria can be
+                        found
+                        <b><a href="https://www.doe.in.gov/sites/default/files/student-assistance/core-40-and-honors-diploma-summary-class-2016-updated-june-2018.pdf"
+                                target="_blank">here</a></b>.
+                    </p>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="row justify-content-between" style="margin: 1%; margin-top: 3%;">
-        <div class="col-md-12 terciary_background" style="font-size: 20px;" id="shadow-box">
-            <h2 class="primary_background" id="shadow">Work and Leadership Experience</h2>
-            <hr>
-            <p>What makes the <i>ideal</i> candidate for your position? Copious <b>ambition</b>? Exceptional
-                <b>skill</b>? Bottomless <b>energy</b>?</p>
-            <p>Well, look no further - I am confidently armed with a <b>drive</b> seldomly matched and an unsatiable
-                craving for <b>knowledge</b> backed by an endless supply of <b>exhuberance</b>; my programming
-                portfolio speaks for itself.</p>
-            <p>Your perfect fit is just <i>one</i> e-mail away - interested in what I can do for you? Contact me at
-                <a class="email-link" href="mailto:aspores@outlook.com?Subject=Let's%20Talk"
-                    target="_top">aspores@outlook.com</a>.</p>
-
-            <a class="btn btn-primary btn-lg btn-top" href="mailto:aspores@outlook.com?Subject=Let's%20Talk">
-                &#9993; Let's Talk &raquo;<div id="skills"></div></a>
-            <a class="btn btn-primary btn-lg" href="experience.html">My Achievements &raquo;</a>
-        </div>
-    </div>
-
-    <div class="row " style="margin: 1%; margin-top: 3%;">
-        <div class="col-md-12 terciary_background" style="font-size: 20px;" id="shadow-box">
-            <h2 class="primary_background" id="shadow">Skills</h2>
-            <hr>
-            <p class="text-center" style="font-size: 40px;"><a style="color:red">&bull;</a> Customer Service <a
-                    style="color:red">&bull;</a>Java <a style="color:red">&bull;</a>HTML5 <a
-                    style="color:red">&bull;</a>CSS <a style="color:red">&bull;</a>JavaScript <a
-                    style="color:red">&bull;</a>C++ <a style="color:red">&bull;</a>Autodesk Revit <a
-                    style="color:red">&bull;</a>Android Studio <a style="color:red">&bull;</a>Bootstrap 4</p>
         </div>
     </div>
 </body>
