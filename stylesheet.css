@@ -48,15 +48,7 @@ html{
   padding: 0%;
 }
 
-.btn-primary{
-   
-  background-color: #b71c1c; 
-  color: #ffffffb7;
-  outline: none;
-  border-style: none;
-  font-size: 20px;
 
-}
 
 .dropdown-menu{
   background-color: #f05545;
@@ -96,7 +88,7 @@ a:active {
 
 .btn-programming{
   box-shadow: 2px 2px 4px #000000;
-  background-color: #db0000c4; 
+  background-color: #7f0000; 
   color: #ffffff;
   outline: none;
   border-style: none;
@@ -113,24 +105,25 @@ a:active {
 
 .btn-primary:hover{
    
-  background-color: #8e0000c4; 
+  background-color: #660000c4; 
   color: #ffffff;
   outline: none;
   border-style: none;
-
+  box-shadow: 1px 1px 0px #000000;
 }
 .btn-primary{
   box-shadow: 2px 2px 1px #000000;
-  background-color: #db0000c4; 
-  color: #ffffff;
+  background-color: #7f0000; 
+  color: #ffffff!important;
   outline: none;
   border-style: none;
   border-radius: 10px;
+  font-size: 20px;
 }
 
 .btn-primary:focus{
    
-  background-color: red!important; 
+  background-color: #5c0000c4!important; 
   color: #ffffff !important;
   border-style: none !important;
   box-shadow: none!important;
@@ -203,7 +196,7 @@ a:active {
 }
 .view:hover {
   background-color: red;
-  opacity: 0.8;
+  
   }
   @media (max-width: 1200px){
     .text-email{
@@ -256,6 +249,8 @@ a:active {
     }
     
   }
+  
+
 
 
   
