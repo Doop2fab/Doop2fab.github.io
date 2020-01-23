@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -14,7 +14,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ec0808">
   <meta name="msapplication-TileColor" content="#b91d47">
-  
+
 
   <title>Rat-in-a-Maze Solver</title>
 
@@ -34,7 +34,8 @@
   <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="shadow-box">
       <!---574b90, 9e579d, fc85ae-->
-      <a class="navbar-brand" href="index.html" id="shadow"><img src="pictures/LOGO.png" width="40px" height="40px" alt="" class="mb-1 mr-3">Andrew Spores</a>
+      <a class="navbar-brand" href="index.html" id="shadow"><img src="pictures/LOGO.png" width="40px" height="40px"
+          alt="" class="mb-1 mr-3">Andrew Spores</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -57,7 +58,7 @@
       </div>
     </nav>
     <h3 class="title_fill text-center roundless" style="color: #ffffff; " id="">Backtracking Rat-in-a-Maze Solver</h3>
-    <div class="container mx-auto terciary_background" style="margin-top: 1%;">
+    <div class="container mx-auto terciary_background mb-4" style="margin-top: 1%;">
       <div class="row">
         <div class="col-7 mx-auto">
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
@@ -72,27 +73,45 @@
           </div>
         </div>
       </div>
-      <div class="row mt-4">
+      <div class="row mt-2">
         <div class="col">
-          
-          <p class="text_fill rounded-top" style="color: #ffffffb7; background-color: #313131; font-size: larger;" id="shadow-box">This is a program which extends the Swing
+
+          <p class="text_fill rounded-top" style="color: #ffffffb7; background-color: #313131; font-size: larger;"
+            id="shadow-box"><b>This is a program which extends the Swing
             framework that solves Rat-in-a-Maze
             problems. It implements simple Backtracking by recursively determining if a space is safe to move to or not
-            and, if the space in question is "un-safe", the rat backtracks. I have included 3 preset mazes, along with the
-            ability to draw your own mazes.</p>
-            <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">Goal:</p>
-            <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">Challenges:</p>
-            <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">Solutions:</p>
-            <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">Key Takeaways:</p>
+            and, if the space in question is "un-safe", the rat backtracks. I have included 3 preset mazes, along with
+            the
+            ability to draw your own mazes.</b></p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Goal:</b></u> In order to more completely understand how backtracking works, I endeavored to solve the Rat-in-a-Maze
+            problem by implementing a recursive backtracking algorithm.</p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Challenges:</b></u> The visual aspect of this program is arguably the most important, but the effectiveness and
+            utility of the language it is written in was also something I considered. Because this program utilizes
+            recursion, I needed to design the code to handle cases where the "Rat" would loop infinitely. I also had to
+            include a way that this program could be downloaded and ran locally.</p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Solutions:</b></u> Because this program is so visually-oriented, I put plenty of thought into how a user would
+            interact with this program and designed a simple, intuitive UI to go along with it. I chose to write this
+            program in Java, because I feel the language brings equal parts utility, readability, and effectiveness when
+            one consideres the goal of this project. In order to solve the case of an infinite loop, I had the "rat"
+            mark where it had been before in the maze and backtrack if it could not find a correct path.</p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Key Takeaways:</b></u> I completed this program with a more complete understanding of how backtracking algorithms
+            work, how different components and tools within Java work together, how .jar files can be utilized, and how
+            GitHub can be used to store and display code in a concise and readable way. I also have a deeper
+            understanding of my abilities as a programmer and troubleshooter.</p>
           <div class="btn-group container-fluid" style="margin: 0%; padding: 0%;" role="group"
             aria-label="Button group with nested dropdown">
             <a type="button" class="btn btn-primary btn-lg program_button"
               href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze" target="_blank">View on GitHub&raquo;</a>
-              <a type="button" class="btn btn-primary btn-lg program_button"
-              href="programming.html" target="_blank">Back to Portfolio&raquo;</a>
+            <a type="button" class="btn btn-primary btn-lg program_button" href="programming.html">Back
+              to Portfolio&raquo;</a>
             <div class="btn-group" role="group">
-              <button id="btnGroupDrop1 block" type="button" class="program_button btn btn-programming dropdown-toggle btn-lg"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button id="btnGroupDrop1 block" type="button"
+                class="program_button btn btn-programming dropdown-toggle btn-lg" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
                 Downloads
               </button>
               <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -103,25 +122,26 @@
                   href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze/raw/master/Swing%20Maze%20Solver.jar">Download
                   .jar</a>
                 <a class="dropdown-item"
-                  href="https://raw.githubusercontent.com/Doop2fab/Backtracking-Rat-in-a-maze/master/swingMazeSolver.java" target="_blank">Download
+                  href="https://raw.githubusercontent.com/Doop2fab/Backtracking-Rat-in-a-maze/master/swingMazeSolver.java"
+                  target="_blank">Download
                   source code</a>
               </div>
             </div>
           </div>
+        </div>
       </div>
-    </div>
-    
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
   </body>
 
