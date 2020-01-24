@@ -16,7 +16,7 @@
   <meta name="msapplication-TileColor" content="#b91d47">
 
 
-  <title>Rat-in-a-Maze Solver</title>
+  <title>Hunt the Wumpus</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -57,17 +57,17 @@
         </ul>
       </div>
     </nav>
-    <h3 class="title_fill text-center roundless" style="color: #ffffff; " id="">Backtracking Rat-in-a-Maze Solver</h3>
+    <h3 class="title_fill text-center roundless" style="color: #ffffff; " id="">Hunt the Wumpus</h3>
     <div class="container mx-auto terciary_background mb-4" style="margin-top: 1%;">
       <div class="row">
         <div class="col-7 mx-auto">
           <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" id="shadow-box">
               <div class="carousel-item active" data-interval="10000">
-                <img src="pictures/backtracking_maze_solver.JPG" class="d-block w-100 rounded" alt="...">
+                <img src="pictures/wumpus1.png" class="d-block w-100 rounded" alt="...">
               </div>
               <div class="carousel-item" data-interval="10000">
-                <img src="pictures/backtracking_maze_solver_solved.JPG" class="d-block w-100 rounded" alt="...">
+                <img src="pictures/wumpus2.png" class="d-block w-100 rounded" alt="...">
               </div>
             </div>
           </div>
@@ -77,56 +77,54 @@
         <div class="col">
 
           <p class="text_fill rounded-top" style="color: #ffffffb7; background-color: #313131; font-size: larger;"
-            id="shadow-box"><b>This is a program which extends the Swing
-            framework that solves Rat-in-a-Maze
-            problems. It implements simple Backtracking by recursively determining if a space is safe to move to or not
-            and, if the space in question is "un-safe", the rat backtracks. I have included 3 preset mazes, along with
-            the
-            ability to draw your own mazes.</b></p>
+            id="shadow-box"><b>This is a program that reads in a file and generates a dungeon for the player to walk
+              through. Your objective is to find the wumpus and shoot him, but not walk into the same room as him or run
+              out of arrows. Also, avoid the traps! When you arrive in a room, you decide whether to move to an adjacent
+              room or to shoot into an adjacent room. There are hints to what may lie beyond the room you are in, so
+              watch out!</b></p>
           <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
-            <u><b>Goal:</b></u> In order to more completely understand how backtracking works, I endeavored to solve the Rat-in-a-Maze
-            problem by implementing a recursive backtracking algorithm.</p>
+            <u><b>Goal:</b></u> In order to more completely understand how objects work within Java, I worked towards
+            completing a project that reads in a file and generates a dungeon with random layouts.</p>
           <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
-            <u><b>Challenges:</b></u> The visual aspect of this program is arguably the most important, but the effectiveness and
-            utility of the language it is written in was also something I considered. Because this program utilizes
-            recursion, I needed to design the code to handle cases where the "Rat" would loop infinitely. I also had to
-            include a way that this program could be downloaded and ran locally.</p>
+            <u><b>Challenges:</b></u> Creating a program that is easy to understand, yet complex and interesting was a
+            problem that I prioritized putting plenty of thought into. Because this project was moreso a lesson in
+            objects, however, I decided to forgo writing any UI. Another interesting problem I faced was reading in a
+            file and creating
+            objects from it, and propagating the dungeon full of dangerous traps.</p>
           <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
-            <u><b>Solutions:</b></u> Because this program is so visually-oriented, I put plenty of thought into how a user would
-            interact with this program and designed a simple, intuitive UI to go along with it. I chose to write this
-            program in Java, because I feel the language brings equal parts utility, readability, and effectiveness when
-            one consideres the goal of this project. In order to solve the case of an infinite loop, I had the "Rat"
-            mark where it had been before in the maze and backtrack if it could not find a correct path.</p>
+            <u><b>Solutions:</b></u> Because this program is supposed to be entertaining for the user, I decided to put
+            my own spin on Gregory Yob's idea (Gregory Yob, "Hunt the Wumpus", <i>Creative Computing</i>,
+            volume 1, 1976, pages 247-250. See <a href="http://www.atariarchives.org/bcc1/showpage.php?page=247"
+              target="blank">http://www.atariarchives.org/bcc1/showpage.php?page=247</a>). This program displays the
+            information about the current room to the user by printing the room number, its description, and the list of
+            adjacent rooms. It also checks if any of the adjacent rooms have spiders, a pit, or the Wumpus and prints a
+            smell/hear message as appropriate. (If adjacent to two pits, it only prints one smelly message, and likewise
+            for spiders.) It also displays the number of remaining arrows the player has. When the player walks into a
+            room with a hazard, they lose. However, if they shoot an arrow into the room with the Wumpus in it, they
+            win! The goal is to shoot into the room with the Wumpus, but not actually walk into its den.</p>
           <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
-            <u><b>Key Takeaways:</b></u> I completed this program with a more complete understanding of how backtracking algorithms
-            work, how different components and tools within Java work together, how .jar files can be utilized, and how
-            GitHub can be used to store and display code in a concise and readable way. I also have a deeper
-            understanding of my abilities as a programmer, as I learned many troubleshooting skills.</p>
+            <u><b>Key Takeaways:</b></u> I finished this program with a more total understanding of how objects work in
+            Java. Writing this program also demonstrated to me correct ways to not only make a piece of software more
+            entertaining for a user/customer but also how to write code in a more understandable and concise way.
+            Indeed, the value of readable yet concise code was shown to be invaluable. </p>
           <div class="btn-group container-fluid" style="margin: 0%; padding: 0%;" role="group"
             aria-label="Button group with nested dropdown">
             <a type="button" class="btn btn-primary btn-lg program_button"
-              href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze" target="_blank">View on GitHub&raquo;</a>
+              href="https://github.com/Doop2fab/Hunt-The-Wumpus" target="_blank">View on GitHub&raquo;</a>
             <a type="button" class="btn btn-primary btn-lg program_button" href="programming.html">Back
               to Portfolio&raquo;</a>
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1 block" type="button"
-                class="program_button btn btn-programming dropdown-toggle btn-lg" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Downloads
-              </button>
-              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <a class="dropdown-item"
-                  href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze/raw/master/Backtracking%20Maze%20Solver.exe">Download
-                  .exe</a>
-                <a class="dropdown-item"
-                  href="https://github.com/Doop2fab/Backtracking-Rat-in-a-maze/raw/master/Swing%20Maze%20Solver.jar">Download
-                  .jar</a>
-                <a class="dropdown-item"
-                  href="https://raw.githubusercontent.com/Doop2fab/Backtracking-Rat-in-a-maze/master/swingMazeSolver.java"
-                  target="_blank">Download
-                  source code</a>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="program_button btn btn-programming dropdown-toggle btn-lg"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Downloads
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                  <a class="dropdown-item"
+                    href="https://raw.githubusercontent.com/Doop2fab/Hunt-The-Wumpus/master/Hunt.java"
+                    target="_blank">Download
+                    source code</a>
+                </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
