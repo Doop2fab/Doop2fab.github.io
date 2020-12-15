@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Andrew Spores">
+  <meta name="theme-color" content="#7f0000">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ec0808">
+  <meta name="msapplication-TileColor" content="#b91d47">
+
+
+  <title>Red-Black Tree</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="shadow-box">
+      <!---574b90, 9e579d, fc85ae-->
+      <a class="navbar-brand" href="index.html" id="shadow"><img src="pictures/LOGO.png" width="40px" height="40px"
+          alt="" class="mb-1 mr-3">Andrew Spores</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li>
+            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="information.html">Details</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link active" href="programming.html">Portfolio</a>
+          </li>
+          <!--end of dropdown for portfolio-->
+        </ul>
+      </div>
+    </nav>
+    <h3 class="title_fill text-center roundless" style="color: #ffffff; " id="">Red-Black Tree</h3>
+    <div class="container mx-auto terciary_background mb-4" style="margin-top: 1%;">
+      <div class="row">
+        <div class="col-7 mx-auto">
+          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" id="shadow-box">
+              <div class="carousel-item active" data-interval="10000">
+                <img src="pictures/rbt_banner.jpg" class="d-block w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col">
+
+          <p class="text_fill rounded-top" style="color: #ffffffb7; background-color: #313131; font-size: larger;"
+            id="shadow-box"><b>Red-Black Trees are self-balancing binary trees. It achieves this by coloring the nodes
+              of the tree to
+              ensure that insertions and deletions are handled in a balanced sense. The really nice benefit of a
+              Red-Black Tree is that it provides a worst-case guarantee on insertion, deletion, and search times. This
+              is great
+              for real-time applications with strict requirements. On top of that by ensuring balance – they are ideal
+              for
+              searching and provide a significant benefit over using a Linked (or Doubly Linked) List.</b></p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Goal:</b></u> For this assignment, I was tasked with creating a Red-Black Tree. My Professor wants to
+            use the Red-Black Tree structure
+            to model athletic roster numbers (here we assume that no
+            double numbers are possible). He wants to know what the root node of our tree is after all insertions
+            and which nodes are RED and which nodes are BLACK after its all said and done. He also gave us a text
+            file that contained athletic roster numbers (integers) and my job was to read in this file and build a tree
+            from
+            it. He only wanted us to deal with insertions and searches for this project – no deletions.
+          </p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Challenges:</b></u> For all of our programming assignments, our professor made it a requirement that
+            we put all of our data on the stack. This is an obvious
+            challenge because it forced us to think about preventing memory leaks. On top of that, we had to program
+            each aspect
+            of the Red-Black Tree from scratch, all the way down to the Nodes on the tree. We were to then insert the
+            data from the text file into the data structure whilst following
+            the properties of Red-Black Trees.</p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Key Takeaways:</b></u> I finished this program with a more total understanding of why programmers use Red-Black Trees and how they work down
+          to each individual component (as I was tasked to create each one from scratch). Learning about the advantages and disadvantages, along with 
+        the specific properties of Red-Black Trees forced me to think in a different way than I ever had to think before. In addition, I had to keep my eye out for potential
+      memory leaks, which added another layer of difficulty. I can confidently say, however, that finishing this project made me a better programmer.</p>
+          <div class="btn-group container-fluid" style="margin: 0%; padding: 0%;" role="group"
+            aria-label="Button group with nested dropdown">
+            <a type="button" class="btn btn-primary btn-lg program_button"
+              href="https://github.com/aspores893/redblack_tree/" target="_blank">View on GitHub</a>
+            <a type="button" class="btn btn-primary btn-lg program_button" href="programming.html">Back
+              to Portfolio</a>
+              <a type="button" class="btn btn-primary btn-lg program_button" target="_blank" href="https://github.com/aspores893/redblack_tree/blob/master/Assignment_4.pdf">View Assignment</a>
+            
+              
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
