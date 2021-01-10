@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Andrew Spores">
+  <meta name="theme-color" content="#7f0000">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#ec0808">
+  <meta name="msapplication-TileColor" content="#b91d47">
+
+
+  <title>Planechaser</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="shadow-box">
+      <!---574b90, 9e579d, fc85ae-->
+      <a class="navbar-brand" href="index.html" id="shadow"><img src="pictures/LOGO.png" width="40px" height="40px"
+          alt="" class="mb-1 mr-3">Andrew Spores</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li>
+            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="about.html">About</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link" href="information.html">Details</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link active" href="programming.html">Portfolio</a>
+          </li>
+          <!--end of dropdown for portfolio-->
+        </ul>
+      </div>
+    </nav>
+    <h3 class="title_fill text-center roundless" style="color: #ffffff; " id="">Planechaser</h3>
+    <div class="container mx-auto terciary_background mb-4" style="margin-top: 1%;">
+      <div class="row">
+        <div class="col-7 mx-auto">
+          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" id="shadow-box">
+              <div class="carousel-item active" data-interval="10000">
+                <img src="pictures/planechaser_banner.png" class="d-block w-100 rounded" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2">
+        <div class="col">
+          <p class="text_fill rounded-top" style="color: #ffffffb7; background-color: #313131; font-size: larger;"
+            id="shadow-box"><b>Planechaser is a Digital Companion App for Magic: The Gathering that allows players to play the Planechase format electronically! Create your own custom planes and enable or disable ones you and your playgroup find undesirable. Planechaser includes every official Planechase Anthology plane card complete with art and information. There's even a built-in counter widget to use for planes that require one!</b></p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Goal:</b></u> There are many different formats and ways to play Magic: The Gathering with your friends, and Planechase is one format that my playgroup really enjoys. Planechase, also known as Planar Magic, is an official game variant first populated by Planechase and basically acts as an augmentation to other formats though players can also play decks specifically geared towards this format. This format requires that players own multiple Planechase cards which have not been printed for a significant amount of time, so it is very hard to actually play a game of Planechase these days. Thus, I set out to create a solution to this problem, and that's how Planechaser was created. With Planechaser, you do not need to own the physical cards to play; you only need open the app and begin! </p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Challenges:</b></u> In the past, I had never really used an API to collect and utilize so much data in an application before. It certainly seemed daunting to me at first, because I was unsure of how to parse JSON files correctly. In addition, I was worried I would not be able to utilize all of the data collected from the API to its maximum potential.</p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Solutions:</b></u> Building off of things I previously learned whilst putting together Backup Code Manager, I was able to incorporate Scryfall's robust API (<a href="https://scryfall.com/docs/api" target="_blank">https://scryfall.com/docs/api</a>) which gives programmers access to any and all magic cards ever printed in Magic: The Gathering's history, complete with card text and images. Learning how to use Scryfall's API was a bit of a challenge, though, because it is extremely versitile and slightly more complicated than anything I have used in the past. Regardless, I perservered and learned how exactly to best implement this API.</p>
+          <p class="text_fill" style="color: #ffffffb7; background-color: #313131; font-size: large;" id="shadow-box">
+            <u><b>Key Takeaways:</b></u> Again, creating something that I can actually roll out to production has been an extremely robust and deep learning experience for me. I learned how to better manage versions on Google Play Console and roll out app bundles in the correct way. I also gained more experience working with others on a project, as I was lucky enough for my friend Charlie to create some assets for Planechaser. (Contact him at <a href="mailto:cmalachinski@outlook.com?Subject=Let's%20Talk">cmalachinski@outlook.com</a>)</p>
+          <div class="btn-group container-fluid" style="margin: 0%; padding: 0%;" role="group"
+            aria-label="Button group with nested dropdown">
+            <a type="button" class="btn btn-primary btn-lg program_button"
+              href="https://play.google.com/store/apps/details?id=com.doopstudio.planechaser" target="_blank">View on Google Play Store</a>
+            <a type="button" class="btn btn-primary btn-lg program_button" href="programming.html">Back
+              to Portfolio</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
